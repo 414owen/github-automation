@@ -1,0 +1,21 @@
+cabal-version:      2.4
+name:               github-automation
+version:            0.1.0.0
+synopsis:
+homepage:
+license:            MIT
+license-file:       LICENSE
+author:             Owen Shepherd
+maintainer:         owen@owen.cafe
+category:           Automation
+extra-source-files: CHANGELOG.md
+
+executable github-automation
+    main-is:          Main.hs
+    build-depends:    base ^>=4.14.3.0
+                    , github
+                    , vector
+                    , netrc
+                    , bytestring
+                    , text
+    default-language: Haskell2010

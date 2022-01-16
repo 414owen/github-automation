@@ -1,0 +1,6 @@
+packages: .
+
+source-repository-package
+    type: git
+    location: https://github.com/414owen/github.git
+    tag: b12098607f6d0d715a308c49a89399e3068b9897
